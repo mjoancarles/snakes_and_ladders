@@ -1,0 +1,128 @@
+There are 12 squares
+snake from 11 to 5
+ladder from 2 to 6
+ladder from 7 to 9
+Death in 4
+Death in 8
+Players are :
+1. Ana
+2. Blanca
+3. Carles
+4. Didac
+Initial state :
+Ana is at square 1
+Blanca is at square 1
+Carles is at square 1
+Didac is at square 1
+
+Current player is Ana and rolls 5
+move from 1 to 6
+land at 6
+State :
+Blanca is at square 1
+Carles is at square 1
+Didac is at square 1
+Ana is at square 6
+
+Current player is Blanca and rolls 4
+move from 1 to 5
+land at 5
+State :
+Carles is at square 1
+Didac is at square 1
+Ana is at square 6
+Blanca is at square 5
+
+Current player is Carles and rolls 5
+move from 1 to 6
+square 6 is occupied, go to square 1
+State :
+Didac is at square 1
+Ana is at square 6
+Blanca is at square 5
+Carles is at square 1
+
+Current player is Didac and rolls 6
+move from 1 to 7
+ladder from 7 to 9
+land at 9
+State :
+Ana is at square 6
+Blanca is at square 5
+Carles is at square 1
+Didac is at square 9
+
+Current player is Ana and rolls 3
+move from 6 to 9
+square 9 is occupied, go to square 1
+State :
+Blanca is at square 5
+Carles is at square 1
+Didac is at square 9
+Ana is at square 1
+
+Current player is Blanca and rolls 2
+move from 5 to 7
+ladder from 7 to 9
+square 9 is occupied, go to square 1
+State :
+Carles is at square 1
+Didac is at square 9
+Ana is at square 1
+Blanca is at square 1
+
+Current player is Carles and rolls 5
+move from 1 to 6
+land at 6
+State :
+Didac is at square 9
+Ana is at square 1
+Blanca is at square 1
+Carles is at square 6
+
+Current player is Didac and rolls 5
+Should go to 14 beyond last square 12 so don't move
+State :
+Ana is at square 1
+Blanca is at square 1
+Carles is at square 6
+Didac is at square 9
+
+Current player is Ana and rolls 4
+move from 1 to 5
+land at 5
+State :
+Blanca is at square 1
+Carles is at square 6
+Didac is at square 9
+Ana is at square 5
+
+Current player is Blanca and rolls 3
+move from 1 to 4
+land at 4
+The player Blanca has died
+State :
+Carles is at square 6
+Didac is at square 9
+Ana is at square 5
+
+Current player is Carles and rolls 5
+move from 6 to 11
+snake from 11 to 5
+square 5 is occupied, go to square 1
+State :
+Didac is at square 9
+Ana is at square 5
+Carles is at square 1
+
+Current player is Didac and rolls 3
+move from 9 to 12
+land at 12
+State :
+Ana is at square 5
+Carles is at square 1
+Didac is at square 12
+
+Didac has won after 12 rounds
+
+Process finished with exit code 0

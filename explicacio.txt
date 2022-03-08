@@ -1,0 +1,12 @@
+As it happened in our previous work, we all did the snakes and ladders project together, using the
+Code With Me platform.
+
+In the first part, the only "problem" we had is that we decided to unify the ladders and snakes
+arraylist to simplify the methods.
+
+In the second one, we had difficulties with the death square indexes,
+since we first subtracted 1 to adequate the index for the operations of the program,
+and then we added one to show the correct output, although we solved this issue relatively faster.
+
+We haven't figured out how to disable classes in order not to compile them,
+as they were not necessary (the classes Ladder and Snake).
